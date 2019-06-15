@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+    <script type="text/javascript" src="js/common.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/swiper.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/from.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/poster.css"/>-->
+    <style type="text/css">
+    	html,body{
+    		height: 100%;
+    	}
+    	body{
+    		position: absolute;
+ 			left: 50%;  top: 50%;
+			bottom: -50%;
+			width: 100%;
+			height: 100%;
+			transform: translate3d(-0%,-0%,0);
+    	}
+    	.wrap{
+    		position: relative;
+    		height: 100%;
+    	}
+    	#main{
+    			background-image: url(images/img1.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				height: 100%;
+				position: relative;
+				top: 0px;
+				bottom: 0px;
+				left: 0px;
+				right: 0px;
+				margin: 0 auto;
+				height: 100%;
+    	}
+    	#swiper1{
+    		height: auto;
+    		flex: 1;
+    		background-image: url(images/img1.jpg);
+				background-repeat: no-repeat;
+				background-size: 100% auto;
+				height: 100%;
+    	}
+    	#question1{
+    		height: 100%;
+    	}
+    </style>
+</head>
+
+<body id="main">
+<div class="wrap">
+    <p class="buttonPrev">
+    <span id="btn1">上一题</span></p>
+    <div id="question1">
+    	<!--<div class="swiper-wrapper">
+    		<h3 class="h3">下列不可回收的物质是——?</h3>
+    	</div>-->
+    	<div class="swiper-container swiper-no-swiping">
+        <div class="swiper-pagination" style="margin-bottom:10px;padding-top: 1.6rem; padding-bottom: 0.2rem;padding-left: 0.9rem;left: 0;width: 1.4rem;height: 2.28rem;
+    overflow: hidden;
+    box-sizing: border-box;"></div>
+        <div class="swiper-button-prev">上一题</div>
+        <div class="swiper-wrapper">
+
+        </div>
+    </div>
+    </div>
+    <!--<div class="swiper-container swiper-no-swiping">
+        <div class="swiper-pagination" style="padding-top: 0.3rem; padding-bottom: 0.2rem;"></div>
+        <div class="swiper-button-prev">上一题</div>
+        <div class="swiper-wrapper">
+
+        </div>
+    </div>-->
+   <!-- <div class="swiper-container" id="swiper1">....<div>-->
+    <!--<div class="buttonNext"><span id="btn2" class="default">下一题</span>-->
+    <div class="buttonNext"><span id="btn2" class="default">下一题</span>
+    	<p class="submit">提交</p>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+
+<script type="text/javascript" src="js/swiper.min.js"></script>
+<script type="text/javascript" src="js/appraisal.js"></script>
+
+</html>
